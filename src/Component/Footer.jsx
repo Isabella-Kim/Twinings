@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faTwitter,
@@ -18,7 +19,7 @@ function Footer() {
         </nav>
         <div>
           <p>Give an email, get the newsletter</p>
-          <i className="fa-solid fa-arrow-right"></i>
+          <FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon>
         </div>
       </div>
       <div className="bottom">
